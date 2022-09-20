@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto final</title>
+</head>
+<body>
+   <h1>MICIBANC</h1>
+    <form action=""> 
+        <h2>Ingresar</h2>
+        <label for="">Usuario</label>
+        <input type="text" name="Nombre" id="">
+        <label for="">Clave</label>
+        <input type="password" name="Clave" id="">
+        <input type="button" value="Ingresar" onclick="Ingresar(this.form)">
+    </form>
+    <script >
+        function Ingresar(form){
+                if(form.Nombre.value=="julian"){
+                    if(from.Clave.value=="0527"){
+                        location="inicio.html";
+                    }
+                else{
+                    alert("error de Clave");
+                }
+        }
+         else{
+            alert("error de Usuario");
+        }
+    }
+    </script>
+
+</body>
+</html>
